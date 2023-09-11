@@ -18,22 +18,37 @@ assert is_palindrome(12321) is True
 
 
 
-"""
 def get_longest_palindrome(origin: str, /) -> str:
 
-    Return the longest palindrome substring from the given input
+    max_pal_1 = ""
+    max_pal_len_1 = 0
+    max_pal_2 = ""
+    max_pal_len_2 = 0
 
-    :param origin:
-    :type origin: str
+    for i in range(len(origin)):
+        left = i
+        right = i
+        while left >= 0 and right < len(origin) and origin[left] == origin[right]:
+            if right - left > max_pal_len_1:
+                max_pal_1 = origin[left:right + 1]
+                max_pal_len_1 = len(max_pal_1)
+            left -= 1
+            right += 1
+        for j in range(len(origin)):
+            left = j
+            right = j + 1
+            while left >= 0 and right < len(origin) and origin[left] == origin[right]:
+                if right - left > max_pal_len_2:
+                    max_pal_2 = origin[left:right + 1]
+                    max_pal_len_2 = len(max_pal_2)
+                left -= 1
+                right += 1
+    if max_pal_len_1 > max_pal_len_2:
+        return max_pal_1
+    else: return max_pal_2
 
-    :return: the longest palindrome
-    :rtype: str
-
-    Usage:
-
-    >>> assert get_longest_palindrome("0123219") == "12321"
-    >>> assert get_longest_palindrome("1012210") == "012210"
-"""
+assert get_longest_palindrome("0123219") == "12321"
+assert get_longest_palindrome("1012210") == "012210"
 
 
 
