@@ -3,7 +3,7 @@ from typing import Union
 
 def is_palindrome(origin: Union[str, int], /) -> bool:
 
-    punct = ('.', '?', '!', ':', ';', '-', '—', ' ',)
+    punct = (".", "?", "!", ":", ";", "-", "—", " ", "/", "'")
     origin = str(origin)
     for symbol in punct:
         if symbol in origin:
@@ -51,22 +51,33 @@ assert get_longest_palindrome("0123219") == "12321"
 assert get_longest_palindrome("1012210") == "012210"
 
 
-
-def are_parentheses_balanced(origin: str, /) -> bool:
-
+def are_parentheses_balanced(origin):
     list_backets = []
+    temp = ["[", "]", "(", ")", "{", "}"]
 
     for i in origin:
-        list_backets.append(i)
+        if i in temp:
+            list_backets.append(i)
 
     if list_backets.count("[") == list_backets.count("]") and list_backets.count("(") == list_backets.count(
             ")") and list_backets.count("{") == list_backets.count("}"):
 
+        for b in range((len(list_backets)) // 2):
+            if list_backets[b] == "(" and list_backets[b + 1] == ")" or list_backets[b] == "{" and list_backets[
+                b + 1] == "}" or list_backets[b] == "[" and list_backets[b + 1] == "]":
+                list_backets.pop(b + 1)
+                list_backets.pop(b)
+
         index = 0
+        r_index = 1
 
         while len(list_backets) != 0:
 
-            if list_backets[index] == "(" and list_backets[-1] == ")" or list_backets[index] == "{" and list_backets[
+            if list_backets[index] == "(" and list_backets[r_index] == ")" or list_backets[index] == "{" and \
+                    list_backets[r_index] == "}" or list_backets[index] == "[" and list_backets[r_index] == "]":
+                list_backets.pop(index)
+                list_backets.pop(index)
+            elif list_backets[index] == "(" and list_backets[-1] == ")" or list_backets[index] == "{" and list_backets[
                 -1] == "}" or list_backets[index] == "[" and list_backets[-1] == "]":
                 list_backets.pop(index)
                 list_backets.pop(-index - 1)
