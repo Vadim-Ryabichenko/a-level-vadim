@@ -20,74 +20,48 @@ assert is_palindrome(12321) is True
 
 def get_longest_palindrome(origin: str, /) -> str:
 
-    max_pal_1 = ""
-    max_pal_len_1 = 0
-    max_pal_2 = ""
-    max_pal_len_2 = 0
-
-    for i in range(len(origin)):
-        left = i
-        right = i
+    def expand(left, right):
         while left >= 0 and right < len(origin) and origin[left] == origin[right]:
-            if right - left > max_pal_len_1:
-                max_pal_1 = origin[left:right + 1]
-                max_pal_len_1 = len(max_pal_1)
             left -= 1
             right += 1
-        for j in range(len(origin)):
-            left = j
-            right = j + 1
-            while left >= 0 and right < len(origin) and origin[left] == origin[right]:
-                if right - left > max_pal_len_2:
-                    max_pal_2 = origin[left:right + 1]
-                    max_pal_len_2 = len(max_pal_2)
-                left -= 1
-                right += 1
-    if max_pal_len_1 > max_pal_len_2:
-        return max_pal_1
-    else: return max_pal_2
+
+        return right - left - 1
+
+    start = end = 0
+
+    for i in range(len(origin)):
+        length_1 = expand(i, i)
+        length_2 = expand(i, i + 1)
+
+        max_pal_length = max(length_1, length_2)
+        if max_pal_length > end - start:
+            start = i - (max_pal_length - 1) // 2
+            end = i + max_pal_length // 2
+
+    return origin[start:end + 1]
 
 assert get_longest_palindrome("0123219") == "12321"
 assert get_longest_palindrome("1012210") == "012210"
 
 
 def are_parentheses_balanced(origin):
-    list_backets = []
-    temp = ["[", "]", "(", ")", "{", "}"]
-
-    for i in origin:
-        if i in temp:
-            list_backets.append(i)
-
-    if list_backets.count("[") == list_backets.count("]") and list_backets.count("(") == list_backets.count(
-            ")") and list_backets.count("{") == list_backets.count("}"):
-
-        for b in range((len(list_backets)) // 2):
-            if list_backets[b] == "(" and list_backets[b + 1] == ")" or list_backets[b] == "{" and list_backets[
-                b + 1] == "}" or list_backets[b] == "[" and list_backets[b + 1] == "]":
-                list_backets.pop(b + 1)
-                list_backets.pop(b)
-
-        index = 0
-        r_index = 1
-
-        while len(list_backets) != 0:
-
-            if list_backets[index] == "(" and list_backets[r_index] == ")" or list_backets[index] == "{" and \
-                    list_backets[r_index] == "}" or list_backets[index] == "[" and list_backets[r_index] == "]":
-                list_backets.pop(index)
-                list_backets.pop(index)
-            elif list_backets[index] == "(" and list_backets[-1] == ")" or list_backets[index] == "{" and list_backets[
-                -1] == "}" or list_backets[index] == "[" and list_backets[-1] == "]":
-                list_backets.pop(index)
-                list_backets.pop(-index - 1)
-            else:
-                break
-
-    if (len(list_backets)) == 0:
-        return True
-    else:
-        return False
+    
+    stack = []
+    if origin.count("(") == origin.count(")") and origin.count("{") == origin.count("}") and origin.count("[") == origin.count("]") and origin.count("<") == origin.count(">"):
+        for i in origin:
+            if i in "({[<":
+                stack.append(i)
+            elif i in ")}]>":
+                open_bracket = stack.pop()
+                if open_bracket == "(" and i == ")":
+                    continue
+                elif open_bracket == "{" and i == "}":
+                    continue
+                elif open_bracket == "[" and i == "]":
+                    continue
+    else: return False
+    if stack: return False
+    else: return True
 
 assert are_parentheses_balanced("({[]})") is True
 assert are_parentheses_balanced(")]}{[(") is False
