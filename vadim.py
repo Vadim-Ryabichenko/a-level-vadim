@@ -59,6 +59,8 @@ def are_parentheses_balanced(origin):
                     continue
                 elif open_bracket == "[" and i == "]":
                     continue
+                elif open_bracket == "<" and i == ">":
+                    continue
     else: return False
     if stack: return False
     else: return True
