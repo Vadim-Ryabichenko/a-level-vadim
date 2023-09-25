@@ -10,7 +10,7 @@ class Telephone:
     
     def get_accepted_calls(self, amount = 0):
         amount = self._counter
-        return amount
+        return amount 
 
     def accept_call(self):
         self._counter += 1
@@ -47,6 +47,8 @@ def counter_func_sum(telephones):
     return result
 
 with open("/home/vadim/a_level_vadim/OOP/telephones.csv", "w") as file:
-    push = counter_func_sum([first_telephone, second_telephone, third_telephone])
     writer = csv.writer(file)
-    writer.writerow(['Count calls =', push])  
+    writer.writerow(["Phone number", "Count calls"])
+
+    for i in [first_telephone, second_telephone, third_telephone]:
+        writer.writerow([i.number, i.get_accepted_calls()]) 
