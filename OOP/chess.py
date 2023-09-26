@@ -1,8 +1,13 @@
 class ChessFigure:
 
-    color = 'white'
-    first = 1
-    second = 1
+    def __init__(self, color, first, second, name):
+        self.color = color
+        self.first = first
+        self.second = second
+        self.name = name
+
+    def __str__(self):
+        return f"figure name: {self.name}, start spot: {self.first}, {self.second}"
 
     def change_color(self):
         if self.color == 'white':
@@ -21,16 +26,6 @@ class ChessFigure:
         
     def check_move(self, first, second):
         ...
-
-    def move(self, first, second):
-        if self._check_spot(first, second) and self.check_move(first, second):
-            print("Move is correct")
-            self.set_spot(first, second)
-            return True
-        else:
-            print("Move is incorrect")
-            return False
-
 
 class Pawn(ChessFigure):
 
@@ -86,29 +81,26 @@ figures_result = []
 
 def figure_can_move(figures, num1, num2):
     for figure in figures:
-        if figure.move(num1, num2) == True:
-            figures_result.append(figure)
+        if figure.check_move(num1, num2) == True:
+            figures_result.append(figure.__str__())
     return figures_result
 
-
-pawn = Pawn()
+pawn = Pawn('white', 3, 2, 'pawn')
 pawn.change_color()
-print(pawn.color)
-pawn.set_spot(3, 2)
        
-bishop = Bishop()
-bishop.set_spot(3, 2)
+bishop = Bishop('black', 4, 4, 'bishop')
+bishop.change_color()
 
-knight = Knight()
-knight.set_spot(3, 2)
+knight = Knight('white', 2, 2, 'knight')
+knight.change_color()
 
-king = King()
-king.set_spot(3, 2)
+king = King('white', 5, 5, 'king')
+king.change_color()
 
-rook = Rook()
-rook.set_spot(3, 2)
+rook = Rook('black', 4, 4, 'rook')
 
-queen = Queen()
-queen.set_spot(3, 2)
+queen = Queen('black', 3, 6, 'queen')
+queen.change_color()
+
 
 print(f'Figures who can move to given place is: {figure_can_move([pawn, bishop, knight, king, rook, queen], 2, 2)}')
