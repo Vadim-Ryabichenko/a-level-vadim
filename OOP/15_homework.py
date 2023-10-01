@@ -11,34 +11,31 @@ class Employee:
 
     def work(self):
         return "I come to the office."
-    
+
     def __gt__(self, other):
-        if self.salary_for_day > other.salary_for_day:
-            return f"Salary {self.employee_name} bigger than {other.employee_name}"
-        else:
-            return f"Salary {self.employee_name} smaller than {other.employee_name}"
+        return self.salary_for_day > other.salary_for_day
+
 
 class Recruiter(Employee):
-    
-    def work_recruiter(self):
-        return super().work()[:len(super().work()) - 1] + " and start to coding."
+
+    def work(self):
+        return "I come to the office and start to hiring."
 
 class Developer(Employee):   
-    
-    def work_developer(self):
-        return super().work()[:len(super().work()) - 1] + " and start to hiring."
-    
+
+    def work(self):
+        return "I come to the office and start to coding."
+
 
 r = Recruiter("Nata", 20, "Master of recruting")
 print(r.work())
-print(r.work_recruiter())
 print(r)
 
 d = Developer("Vadim", 25, "Master of coding")
 print(d.work())
-print(d.work_developer())
 print(d)
 
 print(r > d)
+
 
 
