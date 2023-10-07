@@ -20,3 +20,804 @@ EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
     raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
 EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
 %
+%2023-10-07% %01:01:46.808058% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 90, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %01:02:25.120062% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 90, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %01:02:52.082206% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 90, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %01:15:09.711177% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 100, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %01:17:02.973944% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 100, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %01:17:43.573331% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 100, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %01:22:02.307330% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 100, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %01:22:37.132501% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 100, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %01:26:01.504816% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 100, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %01:26:05.926333% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 100, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %01:26:15.689196% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 100, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %01:27:34.509381% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 100, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %01:28:10.154389% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 100, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %01:28:17.853181% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 100, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %01:28:54.386268% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 100, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %01:29:01.543261% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 100, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %01:29:25.340747% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 97, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %01:29:38.327111% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 97, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %01:32:41.965546% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 97, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %01:33:15.127325% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 98, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %01:37:59.225817% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 98, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %01:41:48.238305% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 98, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %01:47:01.339185% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 98, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %17:27:04.116949% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 99, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %17:34:26.087302% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 99, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %17:35:18.367832% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 100, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %17:35:35.781679% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 100, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %17:39:09.639643% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 99, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %17:39:29.069055% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 99, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %17:39:37.702751% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 99, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %17:42:55.430017% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 99, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %17:46:07.605376% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 98, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %17:46:15.526743% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 98, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %17:48:35.497460% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 97, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %17:50:46.753725% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 97, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %17:52:00.110828% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 97, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %17:52:56.526652% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 98, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %17:53:38.140620% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 98, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %17:55:13.530697% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 98, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %17:55:27.113087% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 98, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %17:57:33.520790% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 101, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %17:58:03.996765% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 101, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %17:58:17.247771% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 101, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %17:58:26.348732% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 101, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %17:58:48.100073% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 101, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %17:59:43.881379% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 101, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %17:59:45.879340% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 101, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %17:59:54.687258% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 101, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %18:00:20.477316% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 101, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %18:00:53.103815% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 101, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %18:01:01.741057% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 101, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %18:01:46.866283% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 101, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %18:01:54.983133% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 101, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %18:02:11.479312% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 101, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %18:03:39.134122% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 102, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %18:05:29.060626% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 102, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %18:06:12.019864% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 102, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %18:06:23.962837% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 102, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %18:06:48.656745% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 102, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %18:06:53.808164% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 102, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %18:07:00.163009% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 102, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %18:07:45.624675% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 109, in <module>
+    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %18:08:59.309847% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 109, in <module>
+    r = Recruiter(
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %18:09:21.172134% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 109, in <module>
+    r = Recruiter(
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %18:09:35.778914% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 109, in <module>
+    r = Recruiter(
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %18:09:46.854177% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 109, in <module>
+    r = Recruiter(
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %18:10:17.603283% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 107, in <module>
+    r = Recruiter(
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %18:11:24.067655% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 108, in <module>
+    r = Recruiter(
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %18:12:40.552100% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 108, in <module>
+    r = Recruiter(
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %18:13:20.594744% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 108, in <module>
+    r = Recruiter(
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %18:15:42.808610% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 109, in <module>
+    r = Recruiter(
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %22:25:04.083029% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 109, in <module>
+    r = Recruiter(
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %22:27:04.447346% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 109, in <module>
+    r = Recruiter(
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %22:27:28.891645% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 109, in <module>
+    r = Recruiter(
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %23:01:12.641016% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 109, in <module>
+    r = Recruiter(
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %23:01:49.109816% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 109, in <module>
+    r = Recruiter(
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %23:02:05.327552% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 109, in <module>
+    r = Recruiter(
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %23:02:09.577538% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 109, in <module>
+    r = Recruiter(
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %23:06:18.333039% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 109, in <module>
+    r = Recruiter(
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-07% %23:07:57.432259% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 112, in <module>
+    r = Recruiter(
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 17, in __init__
+    self.save_email()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 35, in save_email
+    self.validate()
+  File "/home/vadim/alevel/a-level-vadim/OOP/18_Employee.py", line 45, in validate
+    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%
