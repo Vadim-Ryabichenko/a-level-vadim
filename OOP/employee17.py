@@ -13,8 +13,7 @@ class Employee:
         self.employee_name = name
         self.salary_for_day = salary_day
         self.job_title = job_title
-        self.email = email
-        self.save_email()
+        self.save_email(email)
 
     def __str__(self):
         return f"{self.job_title} : {self.employee_name}"
@@ -31,18 +30,19 @@ class Employee:
         working_days = days - first - second
         return f"Salary for {days} days = {self.salary_for_day * working_days} dollars"
     
-    def save_email(self):
-        self.validate()
-        with open("/home/vadim/a_level_vadim/OOP/emails.csv", "a") as file:
+    def save_email(self, email):
+        self.validate(email)
+        self.email = email
+        with open("/home/vadim/alevel/a-level-vadim/OOP/emails.csv", "a") as file:
             writer = csv.writer(file)
             writer.writerow([self.email])
     
-    def validate(self):
-        with open("/home/vadim/a_level_vadim/OOP/emails.csv", "r") as file:
+    def validate(self, email):
+        with open("/home/vadim/alevel/a-level-vadim/OOP/emails.csv", "r") as file:
             reader = csv.reader(file)
             for row in reader:
-                if self.email in row:
-                    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")            
+                if email in row:
+                    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")            
 
 
 class Recruiter(Employee):
@@ -84,7 +84,7 @@ try:
     print(r > d_1)
 
     d_2 = Developer("John", 29, "Master of testing", ["QA", "Python", "Mysql", "Postgresql", "HTML", "CSS"], "john@gmail.ua")
-
+    
     print(d_1 > d_2)
 
     d_3 = d_1 + d_2
@@ -92,7 +92,7 @@ try:
 
     r_2 = Recruiter("Katya", 35, "Master of recruting", "katya@gmail.com")
 except EmailAlreadyExistsException:
-    with open("/home/vadim/a_level_vadim/OOP/logs.txt", "a") as file:
+    with open("/home/vadim/alevel/a-level-vadim/OOP/logs.txt", "a") as file:
         file.write(f"%{now.date()}% %{now.time()}% | %{traceback.format_exc()}%")
 
 

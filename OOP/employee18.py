@@ -13,8 +13,7 @@ class Employee:
         self.employee_name = name
         self.salary_for_day = salary_day
         self.job_title = job_title
-        self.email = email
-        self.save_email()
+        self.save_email(email)
 
     def __str__(self):
         return f"{self.job_title} : {self.employee_name}"
@@ -31,18 +30,19 @@ class Employee:
         working_days = days - first - second
         return f"Salary for {days} days = {self.salary_for_day * working_days} dollars"
     
-    def save_email(self):
-        self.validate()
+    def save_email(self, email):
+        self.validate(email)
+        self.email = email
         with open("/home/vadim/alevel/a-level-vadim/OOP/emails.csv", "a") as file:
             writer = csv.writer(file)
             writer.writerow([self.email])
     
-    def validate(self):
+    def validate(self, email):
         with open("/home/vadim/alevel/a-level-vadim/OOP/emails.csv", "r") as file:
             reader = csv.reader(file)
             for row in reader:
-                if self.email in row:
-                    raise EmailAlreadyExistsException(f"email {self.email} already exist in emails.csv")            
+                if email in row:
+                    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
 
 
 class Recruiter(Employee):
@@ -54,7 +54,7 @@ class Developer(Employee):
     def __init__(self, name, salary_day, job_title, tech_stack, email):
         self.stack = tech_stack
         super().__init__(name, salary_day, job_title, email)
-        
+
     def work(self):
         return "I come to the office and start to coding."
 
@@ -81,10 +81,10 @@ class Candidate:
         self.main_skill_grade = main_skill_grade
 
     def __str__(self):
-        return f"{self.firstname} {self.lastname} {self.email} {self.tech_stack} {self.main_skill} {self.main_skill_grade}"
-    
+        return f"{self.firstname} {self.lastname} {self.email}"
+
     def __repr__(self):
-        return f"{self.firstname} {self.lastname} {self.email} {self.tech_stack} {self.main_skill} {self.main_skill_grade}"
+        return f"{self.firstname} {self.lastname} {self.email}"
 
     @property
     def name(self):
@@ -144,7 +144,6 @@ try:
 
     d_3 = d_1 + d_2
     print(d_3)
-
     r_2 = Recruiter("Katya", 35, "Master of recruting", "katya@gmail.com")
 except EmailAlreadyExistsException:
     with open("/home/vadim/alevel/a-level-vadim/OOP/logs.txt", "a") as file:
