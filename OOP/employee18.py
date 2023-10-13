@@ -3,6 +3,9 @@ from datetime import datetime
 import traceback
 
 now = datetime.now()
+EMAILS = "/home/vadim/alevel/a-level-vadim/OOP/emails.csv"
+LOGS = "/home/vadim/alevel/a-level-vadim/OOP/logs.txt"
+CANDIDATES = "/home/vadim/alevel/a-level-vadim/OOP/candidates.csv"
 
 class EmailAlreadyExistsException(Exception):
     pass
@@ -31,18 +34,22 @@ class Employee:
         return f"Salary for {days} days = {self.salary_for_day * working_days} dollars"
     
     def save_email(self, email):
-        self.validate(email)
-        self.email = email
-        with open("/home/vadim/alevel/a-level-vadim/OOP/emails.csv", "a") as file:
-            writer = csv.writer(file)
-            writer.writerow([self.email])
+        try:
+            self.validate(email)
+            self.email = email
+            with open(EMAILS, "a") as file:
+                writer = csv.writer(file)
+                writer.writerow([self.email])
+        except EmailAlreadyExistsException:
+            with open(LOGS, "a") as file:
+                file.write(f"%{now.date()}% %{now.time()}% | %{traceback.format_exc()}%")
     
     def validate(self, email):
-        with open("/home/vadim/alevel/a-level-vadim/OOP/emails.csv", "r") as file:
+        with open(EMAILS, "r") as file:
             reader = csv.reader(file)
             for row in reader:
                 if email in row:
-                    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+                    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")            
 
 
 class Recruiter(Employee):
@@ -54,7 +61,7 @@ class Developer(Employee):
     def __init__(self, name, salary_day, job_title, tech_stack, email):
         self.stack = tech_stack
         super().__init__(name, salary_day, job_title, email)
-
+        
     def work(self):
         return "I come to the office and start to coding."
 
@@ -68,7 +75,11 @@ class Developer(Employee):
             return other.salary_for_day 
             
     def __add__(self, other):
-        return Developer(self.employee_name + " " + other.employee_name, self.combined_bigger_salary(other), "Developer", list(set(self.stack + other.stack)), self.email + " or " + other.email)
+        return Developer(self.employee_name + " " + other.employee_name, 
+                         self.combined_bigger_salary(other), 
+                         "Developer", 
+                         list(set(self.stack + other.stack)), 
+                         f"{self.email}  +  {other.email}")
 
 
 class Candidate:
@@ -81,10 +92,10 @@ class Candidate:
         self.main_skill_grade = main_skill_grade
 
     def __str__(self):
-        return f"{self.firstname} {self.lastname} {self.email}"
+        return f"{self.firstname} {self.lastname} {self.email}" # як допоможна функція для тесту
 
     def __repr__(self):
-        return f"{self.firstname} {self.lastname} {self.email}"
+        return f"{self.firstname} {self.lastname} {self.email}" # як допоможна функція для тесту
 
     @property
     def name(self):
@@ -108,11 +119,12 @@ class Candidate:
                         )
         return candidates_l
 
-try:
+if __name__ == "__main__":
+
     r = Recruiter(
-        "Nata", 
-        20, 
-        "Master of recruting", 
+        "Nata",
+        20,
+        "Master of recruting",
         "nata@gmail.com"
         )
     print(r.work())
@@ -120,10 +132,10 @@ try:
     print(r.check_salary(14))
 
     d_1 = Developer(
-        "Vadim", 
-        25, 
-        "Master of coding", 
-        ["Python", "Django", "Mysql", "Postgresql", "HTML", "CSS", "JS"], 
+        "Vadim",
+        25,
+        "Master of coding",
+        ["Python", "Django", "Mysql", "Postgresql", "HTML", "CSS", "JS"],
         "vadim@gmail.ua"
         )
     print(d_1.work())
@@ -133,10 +145,10 @@ try:
     print(r > d_1)
 
     d_2 = Developer(
-        "John", 
-        29, 
-        "Master of testing", 
-        ["QA", "Python", "Mysql", "Postgresql", "HTML", "CSS"], 
+        "John",
+        29,
+        "Master of testing",
+        ["QA", "Python", "Mysql", "Postgresql", "HTML", "CSS"],
         "john@gmail.ua"
         )
 
@@ -145,14 +157,10 @@ try:
     d_3 = d_1 + d_2
     print(d_3)
     r_2 = Recruiter("Katya", 35, "Master of recruting", "katya@gmail.com")
-except EmailAlreadyExistsException:
-    with open("/home/vadim/alevel/a-level-vadim/OOP/logs.txt", "a") as file:
-        file.write(f"%{now.date()}% %{now.time()}% | %{traceback.format_exc()}%")
 
+    c = Candidate("Lola", "Grinchenko", "fast coding", "1st level", "lola@gmail.com", ["Mysql", "Postgresql"])
+    print(c.name)
 
-c = Candidate("Lola", "Grinchenko", "fast coding", "1st level", "lola@gmail.com", ["Mysql", "Postgresql"])
-print(c.name)
-
-print(Candidate.generate_candidates("/home/vadim/alevel/a-level-vadim/OOP/candidates.csv"))
-print(Candidate.generate_candidates("/home/vadim/alevel/a-level-vadim/OOP/candidates.csv")[0])
+    print(Candidate.generate_candidates(CANDIDATES))
+    print(Candidate.generate_candidates(CANDIDATES)[0])
     

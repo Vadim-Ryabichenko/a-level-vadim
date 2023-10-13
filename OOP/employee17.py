@@ -3,6 +3,8 @@ from datetime import datetime
 import traceback
 
 now = datetime.now()
+EMAILS = "/home/vadim/alevel/a-level-vadim/OOP/emails.csv"
+LOGS = "/home/vadim/alevel/a-level-vadim/OOP/logs.txt"
 
 class EmailAlreadyExistsException(Exception):
     pass
@@ -13,7 +15,7 @@ class Employee:
         self.employee_name = name
         self.salary_for_day = salary_day
         self.job_title = job_title
-        self.save_email(email)
+        self.email = self.save_email(email)
 
     def __str__(self):
         return f"{self.job_title} : {self.employee_name}"
@@ -31,14 +33,18 @@ class Employee:
         return f"Salary for {days} days = {self.salary_for_day * working_days} dollars"
     
     def save_email(self, email):
-        self.validate(email)
-        self.email = email
-        with open("/home/vadim/alevel/a-level-vadim/OOP/emails.csv", "a") as file:
-            writer = csv.writer(file)
-            writer.writerow([self.email])
+        try:
+            self.validate(email)
+            self.email = email
+            with open(EMAILS, "a") as file:
+                writer = csv.writer(file)
+                writer.writerow([self.email])
+        except EmailAlreadyExistsException:
+            with open(LOGS, "a") as file:
+                file.write(f"%{now.date()}% %{now.time()}% | %{traceback.format_exc()}%")
     
     def validate(self, email):
-        with open("/home/vadim/alevel/a-level-vadim/OOP/emails.csv", "r") as file:
+        with open(EMAILS, "r") as file:
             reader = csv.reader(file)
             for row in reader:
                 if email in row:
@@ -68,32 +74,48 @@ class Developer(Employee):
             return other.salary_for_day 
             
     def __add__(self, other):
-        return Developer(self.employee_name + " " + other.employee_name, self.combined_bigger_salary(other), "Developer", list(set(self.stack + other.stack)), self.email + " or " + other.email)
+        return Developer(self.employee_name + " " + other.employee_name, 
+                         self.combined_bigger_salary(other), 
+                         "Developer", 
+                         list(set(self.stack + other.stack)), 
+                         f"{self.email}  or  {other.email}")
+
     
-try:
-    r = Recruiter("Nata", 20, "Master of recruting", "nata@gmail.com")
-    print(r.work())
-    print(r)
-    print(r.check_salary(14))
+r = Recruiter("Nata", 
+                20, 
+                "Master of recruting", 
+                "nata@gmail.com")
+print(r.work())
+print(r)
+print(r.check_salary(14))
 
-    d_1 = Developer("Vadim", 25, "Master of coding", ["Python", "Django", "Mysql", "Postgresql", "HTML", "CSS", "JS"], "vadim@gmail.ua")
-    print(d_1.work())
-    print(d_1)
-    print(d_1.check_salary(28))
+d_1 = Developer("Vadim", 
+                25, 
+                "Master of coding", 
+                ["Python", "Django", "Mysql", "Postgresql", "HTML", "CSS", "JS"], 
+                "vadim@gmail.ua")
+print(d_1.work())
+print(d_1)
+print(d_1.check_salary(28))
 
-    print(r > d_1)
+print(r > d_1)
 
-    d_2 = Developer("John", 29, "Master of testing", ["QA", "Python", "Mysql", "Postgresql", "HTML", "CSS"], "john@gmail.ua")
-    
-    print(d_1 > d_2)
+d_2 = Developer("John", 
+                29, 
+                "Master of testing", 
+                ["QA", "Python", "Mysql", "Postgresql", "HTML", "CSS"], 
+                "john@gmail.ua")
 
-    d_3 = d_1 + d_2
-    print(d_3)
+print(d_1 > d_2)
 
-    r_2 = Recruiter("Katya", 35, "Master of recruting", "katya@gmail.com")
-except EmailAlreadyExistsException:
-    with open("/home/vadim/alevel/a-level-vadim/OOP/logs.txt", "a") as file:
-        file.write(f"%{now.date()}% %{now.time()}% | %{traceback.format_exc()}%")
+d_3 = d_1 + d_2
+print(d_3)
+
+r_2 = Recruiter("Katya", 
+                35, 
+                "Master of recruting", 
+                "katya@gmail.com")
+
 
 
 

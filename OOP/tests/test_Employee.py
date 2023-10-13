@@ -6,6 +6,8 @@ from unittest import TestCase
 from OOP.employee18 import Employee, EmailAlreadyExistsException
 
 
+EMAILS = "/home/vadim/alevel/a-level-vadim/OOP/emails.csv"
+
 class EmployeeTest(TestCase):
 
     def setUp(self):
@@ -13,7 +15,7 @@ class EmployeeTest(TestCase):
         self.emp2 = Employee(name="Vika", job_title="Employee", salary_day=35, email="kssrkkol@gmail.com")
 
     def test_str(self):
-        self.assertEqual(self.emp.__str__(), "Employee : Vadim")
+        self.assertEqual(self.emp.__str__(), "Employee : Roma")
 
     def test_work(self):
         self.assertEqual(self.emp.work(), "I come to the office.")
@@ -25,14 +27,14 @@ class EmployeeTest(TestCase):
         self.assertEqual(self.emp.check_salary(14), "Salary for 14 days = 450 dollars")
 
     def test_save_email(self):
-        self.emp.save_email(email)
-        with open("/home/vadim/alevel/a-level-vadim/oop/emails.csv", "r") as file:
+        self.emp.save_email(self.emp.email)
+        with open(EMAILS, "r") as file:
             reader = csv.reader(file)
             for row in reader:
                 saved_email = row[-1]
-        self.assertEqual(saved_email, self.emp2.email)
+        self.assertEqual(saved_email, "kssrkkol@gmail.com")
 
-    def test_validate_existing_email(self):
+    def test_validate(self):
         email = "kssrkkol@gmail.com"
         with self.assertRaises(EmailAlreadyExistsException) as context:
             self.emp2.validate(email)
