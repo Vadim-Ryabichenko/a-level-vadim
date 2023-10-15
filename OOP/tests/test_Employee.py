@@ -6,8 +6,6 @@ from unittest import TestCase
 from OOP.employee18 import Employee, EmailAlreadyExistsException
 
 
-EMAILS = "/home/vadim/alevel/a-level-vadim/OOP/emails.csv"
-
 class EmployeeTest(TestCase):
 
     def setUp(self):
@@ -28,7 +26,7 @@ class EmployeeTest(TestCase):
 
     def test_save_email(self):
         self.emp.save_email(self.emp.email)
-        with open(EMAILS, "r") as file:
+        with open("test_emails.csv", "r") as file:
             reader = csv.reader(file)
             for row in reader:
                 saved_email = row[-1]

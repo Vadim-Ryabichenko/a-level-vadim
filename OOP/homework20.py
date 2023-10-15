@@ -163,4 +163,4 @@ if __name__ == "__main__":
     print(c.name)
 
     print(Candidate.generate_candidates("candidates.csv"))
-    print(Candidate.generate_candidates("candidates.csv")[0])
+ 

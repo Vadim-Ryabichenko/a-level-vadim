@@ -2,9 +2,9 @@ import csv
 from datetime import datetime
 import traceback
 
+
 now = datetime.now()
-EMAILS = "emails.csv"
-LOGS = "logs.txt"
+
 
 class EmailAlreadyExistsException(Exception):
     pass
@@ -15,7 +15,7 @@ class Employee:
         self.employee_name = name
         self.salary_for_day = salary_day
         self.job_title = job_title
-        self.email = self.save_email(email)
+        self.save_email(email)
 
     def __str__(self):
         return f"{self.job_title} : {self.employee_name}"
@@ -36,15 +36,16 @@ class Employee:
         try:
             self.validate(email)
             self.email = email
-            with open(EMAILS, "a") as file:
+            with open("emails.csv", "a") as file:
                 writer = csv.writer(file)
                 writer.writerow([self.email])
         except EmailAlreadyExistsException:
-            with open(LOGS, "a") as file:
+            with open("logs.txt", "a") as file:
                 file.write(f"%{now.date()}% %{now.time()}% | %{traceback.format_exc()}%")
+            raise
     
     def validate(self, email):
-        with open(EMAILS, "r") as file:
+        with open("emails.csv", "r") as file:
             reader = csv.reader(file)
             for row in reader:
                 if email in row:
@@ -78,7 +79,7 @@ class Developer(Employee):
                          self.combined_bigger_salary(other), 
                          "Developer", 
                          list(set(self.stack + other.stack)), 
-                         f"{self.email}  or  {other.email}")
+                         f"{self.email}  +  {other.email}")
 
     
 r = Recruiter("Nata", 

@@ -1,0 +1,13 @@
+%2023-10-15% %16:53:12.847749% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/employee18.py", line 37, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/employee18.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+OOP.employee18.EmailAlreadyExistsException: email rrsrsoma@gmail.com already exist in emails.csv
+%%2023-10-15% %16:54:13.872477% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/employee18.py", line 37, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/employee18.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+OOP.employee18.EmailAlreadyExistsException: email rrsrsoma@gmail.com already exist in emails.csv
+%

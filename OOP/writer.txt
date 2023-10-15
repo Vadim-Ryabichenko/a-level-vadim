@@ -1,3 +1,9 @@
 1	2023-10-15 15:15:00.509105	EmailAlreadyExistsException	email misha@gmail.com already exist in emails.csv
 2	2023-10-15 15:20:05.218517	KeyError	'hobby'
 3	2023-10-15 15:20:05.218517	KeyError	'hobby'
+4	2023-10-15 15:52:08.052180	KeyError	'hobby'
+5	2023-10-15 15:52:49.236598	KeyError	'hobby'
+6	2023-10-15 15:52:49.236598	KeyError	'hobby'
+7	2023-10-15 15:53:36.584831	KeyError	'hobby'
+8	2023-10-15 15:53:36.584831	TypeError	generate_candidates() missing 1 required positional argument: 'path'
+9	2023-10-15 15:55:06.897150	KeyError	'hobby'
