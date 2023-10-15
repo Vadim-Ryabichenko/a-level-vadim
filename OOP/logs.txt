@@ -1880,4 +1880,466 @@ OOP.employee18.EmailAlreadyExistsException: email rrsrsoma@gmail.com already exi
   File "/home/vadim/alevel/a-level-vadim/OOP/employee18.py", line 52, in validate
     raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
 OOP.employee18.EmailAlreadyExistsException: email kssrkkol@gmail.com already exist in emails.csv
+%%2023-10-13% %19:53:50.606836% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-13% %19:53:50.606836% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email vadim@gmail.ua already exist in emails.csv
+%%2023-10-13% %19:53:50.606836% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email john@gmail.ua already exist in emails.csv
+%%2023-10-13% %19:56:15.247602% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-13% %19:56:15.247602% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email vadim@gmail.ua already exist in emails.csv
+%%2023-10-13% %19:56:15.247602% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email john@gmail.ua already exist in emails.csv
+%%2023-10-13% %19:57:34.551901% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-13% %19:57:34.551901% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email vadim@gmail.ua already exist in emails.csv
+%%2023-10-13% %19:57:34.551901% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email john@gmail.ua already exist in emails.csv
+%%2023-10-13% %19:58:03.022010% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/employee18.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/employee18.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+OOP.employee18.EmailAlreadyExistsException: email rrsrsoma@gmail.com already exist in emails.csv
+%%2023-10-13% %19:58:29.139434% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/employee18.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/employee18.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+OOP.employee18.EmailAlreadyExistsException: email rrsrsoma@gmail.com already exist in emails.csv
+%%2023-10-13% %19:58:29.139434% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/employee18.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/employee18.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+OOP.employee18.EmailAlreadyExistsException: email kssrkkol@gmail.com already exist in emails.csv
+%%2023-10-13% %19:58:42.400775% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/employee18.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/employee18.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+OOP.employee18.EmailAlreadyExistsException: email rrsrsoma@gmail.com already exist in emails.csv
+%%2023-10-13% %19:58:42.400775% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/employee18.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/employee18.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+OOP.employee18.EmailAlreadyExistsException: email kssrkkol@gmail.com already exist in emails.csv
+%%2023-10-13% %19:58:44.902653% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/employee18.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/employee18.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+OOP.employee18.EmailAlreadyExistsException: email rrsrsoma@gmail.com already exist in emails.csv
+%%2023-10-13% %19:58:44.902653% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/employee18.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/employee18.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+OOP.employee18.EmailAlreadyExistsException: email kssrkkol@gmail.com already exist in emails.csv
+%%2023-10-13% %21:51:19.868062% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-13% %21:51:19.868062% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email vadim@gmail.ua already exist in emails.csv
+%%2023-10-13% %21:51:19.868062% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email john@gmail.ua already exist in emails.csv
+%%2023-10-13% %21:51:51.502731% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-13% %21:51:51.502731% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email vadim@gmail.ua already exist in emails.csv
+%%2023-10-13% %21:51:51.502731% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email john@gmail.ua already exist in emails.csv
+%%2023-10-13% %21:52:27.456899% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-13% %21:52:27.456899% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email vadim@gmail.ua already exist in emails.csv
+%%2023-10-13% %21:52:27.456899% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email john@gmail.ua already exist in emails.csv
+%%2023-10-13% %21:54:09.080962% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-13% %21:54:09.080962% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email vadim@gmail.ua already exist in emails.csv
+%%2023-10-13% %21:54:09.080962% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email john@gmail.ua already exist in emails.csv
+%%2023-10-13% %21:54:30.989378% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-13% %21:54:30.989378% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email vadim@gmail.ua already exist in emails.csv
+%%2023-10-13% %21:54:30.989378% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email john@gmail.ua already exist in emails.csv
+%%2023-10-13% %22:47:49.316691% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-13% %22:47:49.316691% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email vadim@gmail.ua already exist in emails.csv
+%%2023-10-13% %22:49:24.654499% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-13% %22:49:24.654499% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email vadim@gmail.ua already exist in emails.csv
+%%2023-10-13% %22:49:24.654499% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email john@gmail.ua already exist in emails.csv
+%%2023-10-13% %22:56:55.277833% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-13% %22:56:55.277833% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email vadim@gmail.ua already exist in emails.csv
+%%2023-10-13% %22:56:55.277833% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email john@gmail.ua already exist in emails.csv
+%%2023-10-13% %22:59:11.998648% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 39, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-13% %22:59:11.998648% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 39, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email vadim@gmail.ua already exist in emails.csv
+%%2023-10-13% %22:59:11.998648% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 39, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email john@gmail.ua already exist in emails.csv
+%%2023-10-13% %22:59:11.998648% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 39, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email vadim@gmail.ua john@gmail.ua already exist in emails.csv
+%%2023-10-13% %22:59:11.998648% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 39, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email katya@gmail.com already exist in emails.csv
+%%2023-10-13% %23:00:09.180111% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-13% %23:00:09.180111% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email vadim@gmail.ua already exist in emails.csv
+%%2023-10-13% %23:00:09.180111% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email john@gmail.ua already exist in emails.csv
+%%2023-10-13% %23:06:53.483776% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-13% %23:06:53.483776% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email vadim@gmail.ua already exist in emails.csv
+%%2023-10-13% %23:06:53.483776% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email john@gmail.ua already exist in emails.csv
+%%2023-10-13% %23:08:16.523196% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-13% %23:08:16.523196% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email vadim@gmail.ua already exist in emails.csv
+%%2023-10-13% %23:08:16.523196% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email john@gmail.ua already exist in emails.csv
+%%2023-10-13% %23:08:16.523196% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email katya@gmail.com already exist in emails.csv
+%%2023-10-13% %23:14:34.686383% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-13% %23:14:34.686383% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email vadim@gmail.ua already exist in emails.csv
+%%2023-10-13% %23:14:34.686383% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email john@gmail.ua already exist in emails.csv
+%%2023-10-13% %23:17:22.327382% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-13% %23:17:22.327382% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email vadim@gmail.ua already exist in emails.csv
+%%2023-10-13% %23:17:22.327382% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email john@gmail.ua already exist in emails.csv
+%%2023-10-14% %00:03:52.098024% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 53, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-14% %00:04:02.073658% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 53, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-14% %00:04:02.073658% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 53, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email vadim@gmail.ua already exist in emails.csv
+%%2023-10-14% %00:04:02.073658% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 53, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email john@gmail.ua already exist in emails.csv
+%%2023-10-14% %00:04:11.557286% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 53, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-14% %00:04:46.247348% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 53, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-14% %00:06:21.989605% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/employee18.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/employee18.py", line 53, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-14% %00:06:26.434551% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/employee18.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/employee18.py", line 53, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-14% %00:06:28.137744% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/employee18.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/employee18.py", line 53, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-14% %00:06:35.099907% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/employee18.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/employee18.py", line 53, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-14% %00:06:47.021719% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/employee18.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/employee18.py", line 53, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-14% %00:07:31.487697% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/employee18.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/employee18.py", line 53, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+OOP.employee18.EmailAlreadyExistsException: email rrsrsoma@gmail.com already exist in emails.csv
+%%2023-10-14% %00:09:55.435242% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 53, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-14% %00:15:32.423123% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/employee18.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/employee18.py", line 53, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+OOP.employee18.EmailAlreadyExistsException: email rrsrsoma@gmail.com already exist in emails.csv
+%%2023-10-15% %00:15:54.722393% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 73, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/homework20.py", line 89, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email misha@gmail.com already exist in emails.csv
+%%2023-10-15% %00:28:50.045136% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/employee18.py", line 38, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/employee18.py", line 53, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
+%%2023-10-15% %15:22:01.884745% | %Traceback (most recent call last):
+  File "/home/vadim/alevel/a-level-vadim/OOP/employee18.py", line 37, in save_email
+    self.validate(email)
+  File "/home/vadim/alevel/a-level-vadim/OOP/employee18.py", line 52, in validate
+    raise EmailAlreadyExistsException(f"email {email} already exist in emails.csv")
+EmailAlreadyExistsException: email nata@gmail.com already exist in emails.csv
 %

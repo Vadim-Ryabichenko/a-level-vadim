@@ -3,8 +3,8 @@ from datetime import datetime
 import traceback
 
 now = datetime.now()
-EMAILS = "/home/vadim/alevel/a-level-vadim/OOP/emails.csv"
-LOGS = "/home/vadim/alevel/a-level-vadim/OOP/logs.txt"
+EMAILS = "emails.csv"
+LOGS = "logs.txt"
 
 class EmailAlreadyExistsException(Exception):
     pass

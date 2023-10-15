@@ -10,6 +10,40 @@ class EmailAlreadyExistsException(Exception):
     pass
 
 
+class Writer:
+    def write(self, s):
+        self.s = s
+        with open("writer.txt", "a") as file:
+            file.write(s)
+
+                
+class Logger:
+
+    my_writer = Writer()
+    
+    def write(self, exception):
+        number = self.get_error_number()
+        error_class = type(exception).__name__
+        error_message = str(exception)
+        log_string = f"{number}\t{now.date()} {now.time()}\t{error_class}\t{error_message}\n"
+        self.my_writer.write(log_string)
+
+    def get_error_number(self):
+        with open("writer.txt") as file:
+            lines = file.readlines()
+            number = len(lines) + 1
+        return number
+
+def logger(func):
+    def wrapper(*args):
+        try:
+            return func(*args)
+        except Exception as exception:
+            logger_instance = Logger()
+            logger_instance.write(exception)
+    return wrapper
+
+
 class Employee:
     def __init__(self, name, salary_day, job_title, email):
         self.employee_name = name
@@ -44,6 +78,7 @@ class Employee:
                 file.write(f"%{now.date()}% %{now.time()}% | %{traceback.format_exc()}%")
             raise
     
+    @logger
     def validate(self, email):
         with open("emails.csv", "r") as file:
             reader = csv.reader(file)
@@ -79,7 +114,7 @@ class Developer(Employee):
                          self.combined_bigger_salary(other), 
                          "Developer", 
                          list(set(self.stack + other.stack)), 
-                         f"{self.email}  +  {other.email}")
+                         self.email + " " +  other.email)
 
 
 class Candidate:
@@ -92,16 +127,17 @@ class Candidate:
         self.main_skill_grade = main_skill_grade
 
     def __str__(self):
-        return f"{self.firstname} {self.lastname} {self.email}" # як допоможна функція для тесту
+        return f"{self.firstname} {self.lastname} {self.email}" # як допоміжна функція для тесту
 
     def __repr__(self):
-        return self.__str__() # як допоможна функція для тесту
+        return self.__str__()  # як допоміжна функція для тесту
 
     @property
     def name(self):
         return f'{self.firstname} {self.lastname}'
     
     @classmethod
+    @logger
     def generate_candidates(cls, path):
         candidates_l = []
         with open(path, "r") as file:
@@ -114,53 +150,17 @@ class Candidate:
                         row["Email"], 
                         row["Technologies"], 
                         row["Main Skill"], 
-                        row["Main Skill Grade"]
+                        row["Main Skill Grade"],
+                        row["hobby"]
                         )
                         )
         return candidates_l
 
+
 if __name__ == "__main__":
-
-    r = Recruiter(
-        "Nata",
-        20,
-        "Master of recruting",
-        "nata@gmail.com"
-        )
-    print(r.work())
-    print(r)
-    print(r.check_salary(14))
-
-    d_1 = Developer(
-        "Vadim",
-        25,
-        "Master of coding",
-        ["Python", "Django", "Mysql", "Postgresql", "HTML", "CSS", "JS"],
-        "vadim@gmail.ua"
-        )
-    print(d_1.work())
-    print(d_1)
-    print(d_1.check_salary(28))
-
-    print(r > d_1)
-
-    d_2 = Developer(
-        "John",
-        29,
-        "Master of testing",
-        ["QA", "Python", "Mysql", "Postgresql", "HTML", "CSS"],
-        "john@gmail.ua"
-        )
-
-    print(d_1 > d_2)
-
-    d_3 = d_1 + d_2
-    print(d_3)
-    r_2 = Recruiter("Katya", 35, "Master of recruting", "katya@gmail.com")
 
     c = Candidate("Lola", "Grinchenko", "fast coding", "1st level", "lola@gmail.com", ["Mysql", "Postgresql"])
     print(c.name)
 
     print(Candidate.generate_candidates("candidates.csv"))
     print(Candidate.generate_candidates("candidates.csv")[0])
-    

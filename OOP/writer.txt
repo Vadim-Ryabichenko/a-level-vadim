@@ -1,0 +1,3 @@
+1	2023-10-15 15:15:00.509105	EmailAlreadyExistsException	email misha@gmail.com already exist in emails.csv
+2	2023-10-15 15:20:05.218517	KeyError	'hobby'
+3	2023-10-15 15:20:05.218517	KeyError	'hobby'
