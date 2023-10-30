@@ -9,8 +9,7 @@ class Telephone:
         self.number = new_number
     
     def get_accepted_calls(self, amount = 0):
-        amount = self._counter
-        return amount 
+        return self._counter
 
     def accept_call(self):
         self._counter += 1
