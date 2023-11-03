@@ -20,7 +20,7 @@ class CandidateTest(TestCase):
             Candidate("Max", "Payne", "mpayne@example.com", "PHP|Laravel|MySQL", "PHP", "Middle"),
             Candidate("Tom", "Hanks", "thanks@example.com", "Python|CSS", "Python", "Junior")
         ]
-        self.assertEqual(Candidate.generate_candidates(path).__repr__(), expected_candidates.__str__())
+        self.assertEqual(repr(Candidate.generate_candidates(path)), str(expected_candidates))
 
 
           
