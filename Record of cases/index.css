@@ -6,6 +6,58 @@ html,body{
 .warning{
     background-color: red;
 }
-p{
+h3{
+    width: 180px;
+}
+hr {
+    border: none;
+    border-top: 3px double #f8f5f5;
+    color: #060505;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+  }
+  
+  hr:after {
+    background: #fff;
+    content: '§';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+  }
+
+  .hed {
+
+    padding: 50px 20px;
+    text-align: center;
+  } 
+  .hed h1 {
+    font-family: 'Bradley Hand', sans-serif;
+    position: relative;
+    color: #5C2610;
+    font-size: 3em;
+    font-weight: normal;
+    line-height: 1;
+    padding: 10px 0;
+    margin: 0;
+    display: inline-block;
+  }
+  .hed h1:before {
+    content: ""; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    height: 200%;
+    border-radius: 50%/30%;
+    border: 6px solid #5C2610;
+    border-left-color: transparent;
+    border-right-color: transparent;
+  }
+  @media (max-width: 420px) {
+    .hed h1 {font-size: 2em;}
+  }
+h1{
     text-align: center;
 }
